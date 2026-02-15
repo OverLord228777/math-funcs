@@ -8,5 +8,7 @@ public class Main {
         String expr = "x * x * x + 0.1 * x * x - 16.69 * x + 23.171";
         ArrayList<Double> Korni = NumericalMethods.bisertion(expr, 0.005);
         System.out.println(Korni);
+
+        TriTask.TriangleTask();
     }
 }
